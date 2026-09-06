@@ -1,0 +1,128 @@
+/*
+ * Java Messenger - minimalist theme.
+ * Only two colors are used throughout: white and baby blue (#89CFF0).
+ * Dark neutral text (#333) appears only where needed for readability.
+ */
+
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-background-color: white;
+}
+
+/* ---------- Login / Register screens ---------- */
+
+.auth-root {
+    -fx-background-color: white;
+}
+
+.brand-title {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4AA8D8;
+}
+
+.brand-subtitle {
+    -fx-font-size: 14px;
+    -fx-text-fill: #6b7280;
+}
+
+.input-field {
+    -fx-background-color: #f4f9fc;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #cfe9f7;
+    -fx-padding: 10 14 10 14;
+    -fx-font-size: 13px;
+    -fx-pref-width: 280;
+}
+
+.input-field:focused {
+    -fx-border-color: #89CFF0;
+}
+
+.primary-button {
+    -fx-background-color: #89CFF0;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 20;
+    -fx-padding: 10 20 10 20;
+    -fx-cursor: hand;
+    -fx-pref-width: 280;
+}
+
+.primary-button:hover {
+    -fx-background-color: #6fc0ea;
+}
+
+.secondary-button {
+    -fx-background-color: white;
+    -fx-border-color: #89CFF0;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-text-fill: #4AA8D8;
+    -fx-cursor: hand;
+    -fx-padding: 8 16 8 16;
+}
+
+.link-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #4AA8D8;
+    -fx-cursor: hand;
+    -fx-font-size: 12px;
+}
+
+.error-label {
+    -fx-text-fill: #e0554f;
+    -fx-font-size: 12px;
+}
+
+/* ---------- Messenger home screen ---------- */
+
+.sidebar {
+    -fx-background-color: #f7fbfd;
+    -fx-border-color: #e3f1fa;
+    -fx-border-width: 0 1 0 0;
+}
+
+.profile-card {
+    -fx-background-color: white;
+    -fx-background-radius: 12;
+    -fx-padding: 12;
+    -fx-border-color: #e3f1fa;
+    -fx-border-radius: 12;
+}
+
+.profile-username {
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+.profile-status {
+    -fx-font-size: 11px;
+    -fx-text-fill: #7bbfe0;
+}
+
+.content-area {
+    -fx-background-color: white;
+}
+
+/* ---------- Reserved for the messaging phase ---------- */
+/* Sent bubbles: baby blue background, white text, right-aligned.       */
+/* Received bubbles: white background, baby blue border, dark text.     */
+
+.bubble-sent {
+    -fx-background-color: #89CFF0;
+    -fx-background-radius: 16;
+    -fx-padding: 8 14 8 14;
+    -fx-text-fill: white;
+}
+
+.bubble-received {
+    -fx-background-color: white;
+    -fx-background-radius: 16;
+    -fx-border-color: #cfe9f7;
+    -fx-border-radius: 16;
+    -fx-padding: 8 14 8 14;
+    -fx-text-fill: #333333;
+}

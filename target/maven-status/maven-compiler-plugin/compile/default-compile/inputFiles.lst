@@ -1,0 +1,16 @@
+C:\Users\tjaye\Desktop\Clone-Messenger\src\main\java\com\javamessenger\client\ClientContext.java
+C:\Users\tjaye\Desktop\Clone-Messenger\src\main\java\com\javamessenger\client\MainApp.java
+C:\Users\tjaye\Desktop\Clone-Messenger\src\main\java\com\javamessenger\controller\LoginController.java
+C:\Users\tjaye\Desktop\Clone-Messenger\src\main\java\com\javamessenger\controller\MessengerController.java
+C:\Users\tjaye\Desktop\Clone-Messenger\src\main\java\com\javamessenger\controller\RegisterController.java
+C:\Users\tjaye\Desktop\Clone-Messenger\src\main\java\com\javamessenger\database\DBConnection.java
+C:\Users\tjaye\Desktop\Clone-Messenger\src\main\java\com\javamessenger\database\UserDAO.java
+C:\Users\tjaye\Desktop\Clone-Messenger\src\main\java\com\javamessenger\model\Packet.java
+C:\Users\tjaye\Desktop\Clone-Messenger\src\main\java\com\javamessenger\model\PacketType.java
+C:\Users\tjaye\Desktop\Clone-Messenger\src\main\java\com\javamessenger\model\User.java
+C:\Users\tjaye\Desktop\Clone-Messenger\src\main\java\com\javamessenger\network\NetworkClient.java
+C:\Users\tjaye\Desktop\Clone-Messenger\src\main\java\com\javamessenger\server\ClientHandler.java
+C:\Users\tjaye\Desktop\Clone-Messenger\src\main\java\com\javamessenger\server\Server.java
+C:\Users\tjaye\Desktop\Clone-Messenger\src\main\java\com\javamessenger\server\ServerRegistry.java
+C:\Users\tjaye\Desktop\Clone-Messenger\src\main\java\com\javamessenger\utils\PasswordUtil.java
+C:\Users\tjaye\Desktop\Clone-Messenger\src\main\java\com\javamessenger\utils\ValidationUtil.java

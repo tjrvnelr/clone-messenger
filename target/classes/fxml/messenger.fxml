@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.javamessenger.controller.MessengerController">
+    <left>
+        <VBox styleClass="sidebar" spacing="20" prefWidth="260" BorderPane.alignment="TOP_LEFT">
+            <padding>
+                <Insets top="24" right="16" bottom="24" left="16"/>
+            </padding>
+            <Label styleClass="brand-title" text="Java Messenger"/>
+            <VBox styleClass="profile-card" spacing="4">
+                <Label fx:id="usernameLabel" styleClass="profile-username" text="Username"/>
+                <Label fx:id="statusLabel" styleClass="profile-status" text="Offline"/>
+            </VBox>
+            <Button styleClass="secondary-button" text="Logout" onAction="#handleLogout" maxWidth="Infinity"/>
+        </VBox>
+    </left>
+    <center>
+        <VBox alignment="CENTER" spacing="12" styleClass="content-area">
+            <Label fx:id="placeholderLabel" styleClass="brand-subtitle" wrapText="true" textAlignment="CENTER" maxWidth="420"/>
+        </VBox>
+    </center>
+</BorderPane>
