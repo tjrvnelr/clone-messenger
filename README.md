@@ -136,3 +136,11 @@ user search, opening a conversation, real-time message send/receive over
 the existing socket connection, message history loading, and unread-count
 badges — using the `SEARCH_USERS`, `SEND_MESSAGE`, `INCOMING_MESSAGE`, etc.
 packet types already reserved in `PacketType.java`.
+
+## Android APK
+
+The JavaFX desktop client is not Android-compatible, so an installable native
+Android client is provided in `android-client/`. Open that folder in Android
+Studio and use **Build > Build APK(s)**. See `android-client/README.md` for
+phone network setup; a physical phone must connect to the computer's LAN IP,
+not `localhost`.
